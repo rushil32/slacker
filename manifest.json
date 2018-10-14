@@ -2,7 +2,6 @@
   "name": "Slacker",
   "version": "1.0",
   "description": "Helps you slack off at work and look good doing it",
-  "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -10,17 +9,17 @@
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "img/get_started16.png",
-      "32": "img/get_started32.png",
-      "48": "img/get_started48.png",
-      "128": "img/get_started128.png"
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon64.png",
+      "128": "img/icon128.png"
     }
   },
   "icons": {
-    "16": "img/get_started16.png",
-    "32": "img/get_started32.png",
-    "48": "img/get_started48.png",
-    "128": "img/get_started128.png"
+    "16": "img/icon16.png",
+    "32": "img/icon32.png",
+    "48": "img/icon64.png",
+    "128": "img/icon128.png"
   },
   "permissions": ["storage", "declarativeContent", "activeTab"],
   "manifest_version": 2
