@@ -42,7 +42,7 @@ function swapImages(imgCollection) {
   }
 }
 
-chrome.storage.sync.get('theme', function(data) {
+chrome.storage.sync.get('theme', (data) => {
   const newImages = imgLib[data.theme];
 
   swapImages(newImages);
