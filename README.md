@@ -2,4 +2,4 @@
 
 # Slacker
 
-A chrome extension that masks web pages so you can slack off at work.
+A chrome extension that masks web pages.
